@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Diseño UI</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="resources/style.css">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </head>
+    <body>
+        
+        <ul class="navBar">
+                <li class="navLi"><a href="index.html">Home</a></li>
+                <li class="navLi"><a href="hola.html">Empresa</a></li>
+                <li class="navLi"><a>Noticias</a></li>
+                <li onclick="show()" class="navLi">Contacto</li>
+                <li class="navLi"><img id="mipic" src="resources/giphy.gif"></li>
+        </ul>
+        
+        <div id="resto">
+            
+            <div class="redes">
+                <ul>
+                    <li class="redesLi"><img class="imagenRedesSociales" src="resources/facebook.png" /></li>
+                    <li class="redesLi"><img class="imagenRedesSociales" src="resources/gorjeo.png" /></li>
+                    <li class="redesLi"><img class="imagenRedesSociales" src="resources/instagram.png"/></li>
+                </ul>
+		
+		
+		
+            </div>
+
+            
+            
+            <footer>
+		<div class="fuentePiePagina">Copyright 2017 - Todos los derechos reservados.</div>
+            </footer>
+
+        </div>
+        
+        
+    </body>
+</html>
+<script>
+    function show(){
+        var text="Nombre: Juan Perez\nCompania:PruebaTest\nCel:555-2342-1231\neMail:juanperez@pruebatest.com";
+        swal({
+            title: "Informacion de Contacto",
+            text: text,
+            icon: "info"
+          });
+    }
+    
+</script>
