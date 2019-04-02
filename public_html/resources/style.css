@@ -1,3 +1,22 @@
+#columna1
+{
+    height: 800px;
+    width: 300px;
+    background-color: coral;
+    margin-left: 20%;
+    margin-top: 400px;
+}
+
+#columna2
+{
+    height: 800px;
+    width: 300px;
+    float: right;
+    background-color: coral;
+    margin-right: 20%;
+   margin-top: -800px;
+}
+
 #resto
 {
     
